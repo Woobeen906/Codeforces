@@ -9,7 +9,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		string word;
 		cin >> word;
-		if (word.length() < 10)cout << word << "\n";
+		if (word.length() <= 10)cout << word << "\n";
 		else {
 			int cnt = 0;
 			for (int j = 1; j < word.length()-1; j++) {
